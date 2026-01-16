@@ -1,0 +1,31 @@
+body {
+    background: black;
+    color: white;
+    text-align: center;
+    font-family: Arial;
+}
+
+.slider {
+    width: 90%;
+    margin: auto;
+}
+
+.slide {
+    display: none;
+}
+
+.slide.active {
+    display: block;
+}
+
+img {
+    width: 300px;
+    border-radius: 20px;
+}
+
+button {
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
